@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+ 
+int main()
+{
+ //long long d;
+char lt;
+ 
+ cin>>lt;
+ 
+ if(lt>='A'&& lt<='Z')
+ 
+     {cout<<"ALPHA"<<endl<<"IS CAPITAL"<<endl;}
+ 
+  else if(lt>='a'&& lt<='z')
+  { cout<<"ALPHA"<<endl<<"IS SMALL";}
+ 
+ 
+ 
+  else {cout<<"IS DIGIT";}}
